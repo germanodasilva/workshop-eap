@@ -29,7 +29,7 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: DestinationRule
 metadata:
-  name: /rest/members{0}
+  name: /rest/members-detail
 spec:
   host: eap-app
   subsets:
