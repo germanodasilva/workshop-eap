@@ -43,6 +43,11 @@
             <type>ejb</type>
         </dependency>
 
+        <dependency>
+            <groupId>io.jaegertracing</groupId>
+            <artifactId>jaeger-client</artifactId>
+            <version>1.1.0.redhat-00002</version>
+        </dependency>
         <!-- Depend on the EJB module and WAR so that we can package them -->
         <dependency>
             <groupId>${project.groupId}</groupId>

@@ -9,4 +9,4 @@ build.groupId=org.jboss.eap.quickstarts
 build.java.vendor=N/A
 build.java.runtime.name=OpenJDK Runtime Environment
 build.java.runtime.version=13.0.2+8
-build.artifactId=kitchensink-ear-web
+build.artifactId=kitchensink-ear-ear

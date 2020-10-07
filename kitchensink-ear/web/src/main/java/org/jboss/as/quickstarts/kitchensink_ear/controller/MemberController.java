@@ -28,14 +28,13 @@ import org.jboss.as.quickstarts.kitchensink_ear.model.Member;
 import org.jboss.as.quickstarts.kitchensink_ear.service.MemberRegistration;
 
 import org.jboss.logging.Logger;
-import io.jaegertracing.jaeger;
 
 // The @Model stereotype is a convenience mechanism to make this a request-scoped bean that has an
 // EL name
 // Read more about the @Model stereotype in this FAQ:
 // http://www.cdi-spec.org/faq/#accordion6
 @Model
-@Traced
+
 public class MemberController {
 
     private static final Logger LOGGER = Logger.getLogger(MemberController.class);
