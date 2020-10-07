@@ -39,4 +39,3 @@ spec:
   - name: v2
     labels:
       version: v2
----
